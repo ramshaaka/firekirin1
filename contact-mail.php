@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      $to = "digitalmavericks@go777onmicrosoft.com";
+      $to = "support@firekirin.games";
     $subject = "Equiry From Firekirin Website";
     
     $message = htmlspecialchars($_POST['message']);
