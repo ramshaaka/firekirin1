@@ -77,6 +77,124 @@
         bottom: -5px;
         content: "";
        }
+       
+       /* Hero Section Improvements */
+       .home-hero {
+           position: relative;
+           overflow: hidden;
+       }
+       
+       .home-hero img {
+           width: 100%;
+           height: 100vh;
+           object-fit: cover;
+           filter: brightness(0.7);
+       }
+       
+       .home-hero-content {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           text-align: center;
+           color: white;
+           z-index: 10;
+           width: 90%;
+           max-width: 800px;
+       }
+       
+       .home-hero-content h1 {
+           font-size: 3.5rem;
+           font-weight: 700;
+           margin-bottom: 1rem;
+           text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+           background: linear-gradient(45deg, #FFC71E, #FFD700);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-clip: text;
+       }
+       
+       .home-hero-content p {
+           font-size: 1.3rem;
+           margin-bottom: 1rem;
+           text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+           font-weight: 500;
+       }
+       
+       .hero-buttons {
+           margin-top: 2rem;
+           display: flex;
+           gap: 1rem;
+           justify-content: center;
+           flex-wrap: wrap;
+       }
+       
+       .hero-btn {
+           padding: 15px 30px;
+           border-radius: 50px;
+           text-decoration: none;
+           font-weight: 600;
+           font-size: 1.1rem;
+           transition: all 0.3s ease;
+           display: inline-block;
+           text-transform: uppercase;
+           letter-spacing: 1px;
+       }
+       
+       .hero-btn-primary {
+           background: linear-gradient(45deg, #0E3A19, #FFC71E);
+           color: white;
+           border: 2px solid #FFC71E;
+       }
+       
+       .hero-btn-primary:hover {
+           background: linear-gradient(45deg, #FFC71E, #0E3A19);
+           transform: translateY(-3px);
+           box-shadow: 0 10px 25px rgba(255, 199, 30, 0.3);
+       }
+       
+       .hero-btn-secondary {
+           background: transparent;
+           color: white;
+           border: 2px solid white;
+       }
+       
+       .hero-btn-secondary:hover {
+           background: white;
+           color: #0E3A19;
+           transform: translateY(-3px);
+       }
+       
+       .bonus-highlight {
+           background: linear-gradient(45deg, #FFC71E, #FFD700);
+           color: #0E3A19;
+           padding: 10px 20px;
+           border-radius: 25px;
+           font-weight: 700;
+           display: inline-block;
+           margin: 10px 0;
+           box-shadow: 0 5px 15px rgba(255, 199, 30, 0.3);
+       }
+       
+       @media (max-width: 768px) {
+           .home-hero-content h1 {
+               font-size: 2.5rem;
+           }
+           
+           .home-hero-content p {
+               font-size: 1.1rem;
+           }
+           
+           .hero-buttons {
+               flex-direction: column;
+               align-items: center;
+           }
+           
+           .hero-btn {
+               width: 250px;
+               text-align: center;
+           }
+       }
     </style>
 </head>
 <body>
@@ -90,9 +208,14 @@
     <img src="./media/home-hero.jpg" alt="Firekirin Gaming Platform Hero Banner - Premium Online Gaming Experience">
     <div class="home-hero-content">
         <div>
-            <h1>First deposit Offer.</h1>
-            <p><a href="https://www.facebook.com/profile.php?id=61560330823467&mibextid=ZbWKwL" target="_blank" style="color: inherit; text-decoration: none;"></a>200% welcome bonus on your first deposit.</p>
-            <p>Fun never stops with Firekirin.</p>
+            <h1>🔥 FIREKIRIN GAMING 🔥</h1>
+            <div class="bonus-highlight">🎁 200% WELCOME BONUS 🎁</div>
+            <p>Get 200% bonus on your first deposit and start your gaming adventure!</p>
+            <p>Fun never stops with Firekirin - Join the ultimate gaming community!</p>
+            <div class="hero-buttons">
+                <a href="http://play.firekirin.in/web_mobile/firekirin_pc/" target="_blank" class="hero-btn hero-btn-primary">🎮 Start Playing Now</a>
+                <a href="https://www.facebook.com/profile.php?id=61560330823467&mibextid=ZbWKwL" target="_blank" class="hero-btn hero-btn-secondary">📱 Join Now</a>
+            </div>
         </div>
     </div>
  </section>
