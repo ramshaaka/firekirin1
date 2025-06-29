@@ -3,7 +3,7 @@
     <div class="main-header-container g-container g-flex">
          <!-- logo  -->
      <div class="logo">
-        <a href="./" title="Firekirin - Premium Online Gaming Platform">
+        <a href="https://www.facebook.com/profile.php?id=61560330823467&mibextid=ZbWKwL" title="Firekirin - Premium Online Gaming Platform">
             <img src="./media/logo.png" alt="Firekirin Logo - Premium Online Gaming Platform">
         </a>
      </div>

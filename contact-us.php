@@ -140,7 +140,7 @@
 
 <section class="contact-mail">
    <div class="contact-mail-container">
-      <a href="mailto:padhiakri@go777onmicrosoft.com"><i class="bi bi-envelope"></i> padhiakri@go777onmicrosoft.com</a>
+      <a href="mailto:support@firekirin.games"><i class="bi bi-envelope"></i> support@firekirin.games</a>
    </div>
 </section>
 

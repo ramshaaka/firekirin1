@@ -90,8 +90,9 @@
     <img src="./media/home-hero.jpg" alt="Firekirin Gaming Platform Hero Banner - Premium Online Gaming Experience">
     <div class="home-hero-content">
         <div>
-            <h1>We're here to Keep you Plugged-In.</h1>
-            <p>Build the dopest community ever in the gaming world by exploring New terrains. Level up your skills, stay ahead of the curve, and show the world what you're made of.</p>
+            <h1>First deposit Offer.</h1>
+            <p><a href="https://www.facebook.com/profile.php?id=61560330823467&mibextid=ZbWKwL" target="_blank" style="color: inherit; text-decoration: none;"></a>200% welcome bonus on your first deposit.</p>
+            <p>Fun never stops with Firekirin.</p>
         </div>
     </div>
  </section>
